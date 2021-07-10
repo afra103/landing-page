@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+}
+
+.wins {
+  background-color: white;
+  font-size: 12px;
+  text-align: right;
+  border-radius: 15px;
+  padding: 10px 30px;
+  overflow: visible;
+  margin-right: 40px;
+  color: #0c817f;
+  height: 6.5em;
+}
+
+.container-1 {
+  width: 100%;
+  height: 720px;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1585040235386-e295239c0419?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.sec-1 {
+  align-self: center;
+  margin-right: 20px;
+}
+
+.sec-2 {
+  border-left: solid 4px #49bfb4;
+  padding: 20px;
+  width: 381px;
+  height: 180px;
+}
+
+.services h2 {
+  color: #444444;
+  text-align: center;
+}
+
+.service-container {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  width: 383.44px;
+  height: 284px;
+  line-height: 1.5;
+  font-size: 14px;
+  background: transparent linear-gradient(180deg, #5fd4c9 0%, #24a498 100%);
+  box-shadow: 0px 20px 30px #0000002e;
+  border-radius: 50px;
+  overflow: visible;
+}
+
+.service-box:hover {
+  cursor: pointer;
+  transform: translateY(-5%);
+  /* transition: all 190ms ease-in-out; */
+}
+
+.service-box img {
+  width: 200px;
+}
+/* Utilities */
+.grid {
+  display: grid;
+  gap: 0;
+  /* height: 100%; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 500px;
+}
+
+.grid-content-1 {
+  background-color: rgb(11, 130, 119, 0.68);
+  /* background: rgb(11, 130, 119, 0.68) 0% 0% no-repeat padding-box; */
+  padding: 50px;
+  color: white;
+  width: 487px;
+  grid-row: 1 / span 2;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-content-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  grid-row: 2;
+  height: 80px;
+}
+
+.fw-2 {
+  font-weight: bold;
+}
+
+.fs-5 {
+  font-size: 50px;
+}
+
+.fc-1 {
+  color: #49bfb4;
+}
+
+.fc-white {
+  color: white;
+}
+
+.fc-black {
+  color: black;
+}
